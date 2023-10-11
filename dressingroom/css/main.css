@@ -1,0 +1,42 @@
+.well {
+  height: 100%;
+}
+.well .tab-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.well .tab-content .card img {
+  width: 50%;
+}
+
+.nav-pills .nav-item button {
+  width: 100%;
+  background-color: rgb(35, 199, 150);
+}
+
+.contain .topCloth {
+  width: 250px;
+  height: 500px;
+  position: absolute;
+  top: 12%;
+  left: 22%;
+  z-index: 2;
+}
+.contain .topCloth img {
+  width: 100%;
+}
+.contain .botCloth {
+  width: 250px;
+  height: 500px;
+  position: absolute;
+  top: 12%;
+  left: 22%;
+  z-index: 1;
+}
+.contain .botCloth img {
+  width: 100%;
+}
+.contain .background img {
+  height: 1236px;
+}/*# sourceMappingURL=main.css.map */
